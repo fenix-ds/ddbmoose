@@ -20,7 +20,7 @@ func TestDdbmoose(t *testing.T) {
 		t.Error(failed.Error())
 	}
 
-	failed = ddbMoose.SetTable("ddbmoose")
+	failed = ddbMoose.SetTable("ddbmoose2")
 
 	if failed != nil {
 		t.Error(failed.Error())
